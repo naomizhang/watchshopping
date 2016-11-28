@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>铭表汇登录</title>
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="head">
+	<div class="contents">
+    	<h1><a href="index.html" target="">铭表汇</a></h1>
+    </div>
+</div>
+<div class="bg">
+  <div class="contents clear">
+    	<div class="login">
+            <div class="clear top1"><span class="fl">铭表汇会员</span><span class="fr">还不是铭表汇用户？<a href="register.html" target="_blank">免费注册</a></span></div>
+            <form id="box">
+                <input id="input1" name="" value="" type="text" placeholder="手机号/会员名/邮箱"/>
+                <p class="p1"></p>
+                <input id="input2" name="" value="" type="password" placeholder="密码"/>
+                <p class="p2"></p>
+                <input type="submit" name="" value="立即登录" onclick="checktosubmit()"/>
+                <a href="#" target="_blank">忘记密码?</a>   
+            </form>            
+        </div>
+    </div>
+</div>
+ <div class="footer">
+    	<div class="contents clear">
+        	<div class="footl fl">
+                    <p>客服电话</p><span>400-883-2688</span>
+                    <a href="#" target="_blank">在线咨询</a>
+                </div>
+                <div class="footr fr clear">
+                    <div class="l1 fl">
+                        <h6>新手</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">注册新会员</a></li>
+                            <li><a href="#" target="_blank">如何订购</a></li>
+                            <li><a href="#" target="_blank">正品保障</a></li>
+                            <li><a href="#" target="_blank">常见手表问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="l2 fl">
+                        <h6>支付</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">支付方式</a></li>
+                            <li><a href="#" target="_blank">分期付款</a></li>
+                            <li><a href="#" target="_blank">发票说明</a></li>
+                            <li><a href="#" target="_blank">支付问题</a></li>                    	
+                        </ul>
+                    </div>
+                    <div class="l13 fl">
+                        <h6>物流</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">包裹签收</a></li>
+                            <li><a href="#" target="_blank">配送方式</a></li>
+                            <li><a href="#" target="_blank">配送说明</a></li>
+                            <li><a href="#" target="_blank">自提流程</a></li>               	
+                        </ul>
+                    </div>
+                    <div class="l4 fl">
+                        <h6>保障</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">服务承诺</a></li>
+                            <li><a href="#" target="_blank">价格保护</a></li>
+                            <li><a href="#" target="_blank">七天退换说明</a></li>
+                            <li><a href="#" target="_blank"> 保修说明</a></li>             	
+                        </ul>
+                    </div>                    
+            	</div>
+        </div>
+        <!--contents-->
+    </div>
+    <!--footer-->
+    <div class="footer-bottom">
+    	<div class="clear">
+        	<p>铭表网名表商城 版权所有 2008-2016 ICP备案证书号:鄂ICP备09108738号 网监备案:4401060103141<br/>武汉市铭表网科技股份有限公司 地址:武汉市江汉区临江大道507号<br/>Copyright 2008-2016 WWW.MBCLUB.CN.LTD ALL RIGHT RESERVED.
+</p>
+		<div class="clear"><h6>友情链接:</h6><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a><a href="#" target="_blank">爱马仕</a><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a><a href="#" target="_blank">爱马仕</a><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a></div>
+    </div>
+    </div>
+
+
+
+<script>
+var oDiv=document.getElementById("box");
+var reg=/^[A-Za-z0-9_\u4e00-\u9fa5]{3,15}$/;
+var oInput= document.getElementById("input1");
+var oP= oDiv.getElementsByTagName("p")[0];
+oInput.onfocus=function(){
+oP.style.opacity="0";
+	oInput.style.borderColor="#999"
+}
+oInput.onblur=function(){
+	var inputValue=oInput.value;
+if(inputValue.length===0|!reg.test(inputValue)){
+	oP.style.opacity="1";
+	oP.className="error";
+	oInput.style.borderColor="red"
+	oP.innerHTML=inputValue.length===0?"请输入您的用户名/手机号/邮箱地址":"格式不正确，请重新输入";
+}};
+
+var reg2=/^(?:\d+|[a-zA-Z]+|[!@#$%^&*]+){6,14}$/;
+var oInput2= document.getElementById("input2");
+var oP2= oDiv.getElementsByTagName("p")[1];
+oInput2.onfocus=function(){
+	oP2.style.opacity="0";
+	oInput2.style.borderColor="#999";
+}
+oInput2.onblur=function(){
+	var inputValue=oInput2.value;
+if(inputValue.length===0|!reg2.test(inputValue)){
+	oP2.style.opacity="1";
+	oP2.className="error";
+	oInput2.style.borderColor="red";
+	oP2.innerHTML=inputValue.length===0?"请输入您的密码":"格式不正确，请重新输入";
+}};
+
+ 
+</script>
+</body>
+</html>

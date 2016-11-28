@@ -1,0 +1,597 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>铭表汇选表中心</title>
+<link href="css/list.css" rel="stylesheet" type="text/css">
+<link href="css/head-footer.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="top-line" id="top-line">
+  <div class="contents">
+    <div class="fl"> <a href="login.html" target="_blank" class="login">登录</a> | <a href="register.html" target="_blank">注册</a> </div>
+    <div class="fr"> <a href="#" target="_blank" class="fl">我的铭表汇</a>
+      <div class="cart fl"><a href="cart.html" target="_blank">我的购物车(0)</a>
+        <div class="cartinner">购物车空空~赶快去选购吧~</div>
+      </div>
+      <span class="fl">服务专线:400-888-888</span> </div>
+  </div>
+</div>
+<!--top-line-->
+<div class="head">
+  <div class="contents clear">
+    <h1 class="fl"><a href="index.html" target="_blank">铭表网</a></h1>
+    <div class="search fr">
+      <form class="clear">
+        <div class="ser fl">
+          <input type="text" name="" value="搜索 品牌/系列/型号" onfocus="if(this.value=='搜索 品牌/系列/型号'){this.value='';}" onblur="if(this.value==''){this.value='搜索 品牌/系列/型号';}"/>
+        </div>
+        <div class="button fl">
+          <input type="submit" name="" value=""/>
+        </div>
+      </form>
+      <div><a href="#" target="">限时特卖</a><a href="#" target="">11.11优惠返场</a><a href="#" target="">赫柏林满999减150</a></div>
+    </div>
+  </div>
+</div>
+<div class="nav">
+  <div class="contents">
+    <div class="fl allnav">
+    <a hred="#" target="_blank">全部腕表</a>
+    <div class="loc">
+   
+      		<div class="bg"></div>
+          <div class="left-nav clear">
+            <ul id="tabs">
+              <li id="f1" onmousemove="tab(0)">
+                <h4><a href="list.html" target="_blank">顶级品牌</a></h4>
+                <a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">亨利·慕时</a></li>
+              <li id="f2" onmousemove="tab(1)">
+                <h4><a href="#" target="_blank">奢华品牌</a></h4>
+                <a href="#" target="_blank">欧米茄</a><a href="#" target="_blank">格拉苏蒂·莫勒</a><a href="#" target="_blank">库尔沃</a></li>
+              <li id="f3" onmousemove="tab(2)">
+                <h4><a href="#" target="_blank">轻奢品牌</a></h4>
+                <a href="#" target="_blank">天梭</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">爱宝时</a></li>
+              <li id="f4" onmousemove="tab(3)">
+                <h4><a href="#" target="_blank">时尚品牌</a></h4>
+                <a href="#" target="_blank">卡西欧</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">CK</a><a href="#" target="_blank">阿玛尼</a></li>
+              <li id="f5" onmousemove="tab(4)">
+                <h4><a href="#" target="_blank">潮牌、国产表</a></h4>
+                <a href="#" target="_blank">CHIC驰客</a><a href="#" target="_blank">SevenFriday</a><a href="#" target="_blank">天铭</a></li>
+            </ul>
+          </div>
+          <div class="navinner" id="f5text" style="display:none">
+            <h5><a href="#" target="_blank">潮牌、国产表</a></h5>
+            <div class="br"><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a></div>
+            <h5><a href="#" target="_blank">精选推荐</a></h5>
+            <div class="suggest"><a href="#" target="_blank">芝柏</a>/<a href="#" target="_blank">雅典</a>/<a href="#" target="_blank">法穆兰</a>/<a href="#" target="_blank">爱马仕</a>/<a href="#" target="_blank">天梭</a>/<a href="#" target="_blank">柏高</a>/<a href="#" target="_blank">亨利·慕时</a>/<a href="#" target="_blank">百达翡丽</a>/<a href="#" target="_blank">江诗丹顿</a>/<a href="#" target="_blank">宝玑</a>/<a href="#" target="_blank">积家</a>/<a href="#" target="_blank">朗格</a>/<a href="#" target="_blank">格拉苏蒂原创</a>/<a href="#" target="_blank">爱彼</a>/<a href="#" target="_blank">伯爵</a>/<a href="#" target="_blank">雅克德罗</a></div>
+          </div>
+          <div class="navinner" id="f2text" style="display:none">
+            <h5><a href="#" target="_blank">奢华品牌</a></h5>
+            <div class="br"><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a><a href="#" target="_blank"><img src="images/br1.png" width="100"/></a></div>
+            <h5><a href="#" target="_blank">精选推荐</a></h5>
+            <div class="suggest"><a href="#" target="_blank">柏高</a>/<a href="#" target="_blank">亨利·慕时</a>/<a href="#" target="_blank">百达翡丽</a>/<a href="#" target="_blank">江诗丹顿</a>/<a href="#" target="_blank">宝玑</a>/<a href="#" target="_blank">雅典</a>/<a href="#" target="_blank">法穆兰</a>/<a href="#" target="_blank">爱马仕</a>/<a href="#" target="_blank">天梭</a>/<a href="#" target="_blank">积家</a>/<a href="#" target="_blank">朗格</a>/<a href="#" target="_blank">格拉苏蒂原创</a>/<a href="#" target="_blank">爱彼</a>/<a href="#" target="_blank">伯爵</a>/<a href="#" target="_blank">雅克德罗</a>/<a href="#" target="_blank">芝柏</a></div>
+          </div>
+          <div class="navinner" id="f3text" style="display:none">
+            <h5><a href="#" target="_blank">轻奢品牌</a></h5>
+            <div class="br"><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a><a href="#" target="_blank"><img src="images/br2.png" width="100"/></a></div>
+            <h5><a href="#" target="_blank">精选推荐</a></h5>
+            <div class="suggest"><a href="#" target="_blank">柏高</a>/<a href="#" target="_blank">亨利·慕时</a>/<a href="#" target="_blank">百达翡丽</a>/<a href="#" target="_blank">江诗丹顿</a>/<a href="#" target="_blank">宝玑</a>/<a href="#" target="_blank">积家</a>/<a href="#" target="_blank">朗格</a>/<a href="#" target="_blank">伯爵</a>/<a href="#" target="_blank">雅克德罗</a>/<a href="#" target="_blank">芝柏</a>/<a href="#" target="_blank">雅典</a>/<a href="#" target="_blank">法穆兰</a>/<a href="#" target="_blank">爱马仕</a>/<a href="#" target="_blank">天梭</a></div>
+          </div>
+          <div class="navinner" id="f4text" style="display:none">
+            <h5><a href="#" target="_blank">时尚品牌</a></h5>
+            <div class="br"><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a><a href="#" target="_blank"><img src="images/br3.png" width="100"/></a></div>
+            <h5><a href="#" target="_blank">精选推荐</a></h5>
+            <div class="suggest"><a href="#" target="_blank">柏高</a>/<a href="#" target="_blank">亨利·慕时</a>/<a href="#" target="_blank">百达翡丽</a>/<a href="#" target="_blank">法穆兰</a>/<a href="#" target="_blank">爱马仕</a>/<a href="#" target="_blank">天梭</a>/<a href="#" target="_blank">江诗丹顿</a>/<a href="#" target="_blank">宝玑</a>/<a href="#" target="_blank">积家</a>/<a href="#" target="_blank">朗格</a>/<a href="#" target="_blank">格拉苏蒂原创</a>/<a href="#" target="_blank">爱彼</a>/<a href="#" target="_blank">伯爵</a>/<a href="#" target="_blank">雅克德罗</a>/<a href="#" target="_blank">芝柏</a>/<a href="#" target="_blank">雅典</a></div>
+          </div>
+          <div class="navinner" id="f1text" style="display:none">
+            <h5><a href="#" target="_blank">顶级品牌</a></h5>
+            <div class="br"><a href="#" target="_blank"><img src="images/br4.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br4.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br4.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a><a href="#" target="_blank"><img src="images/br4.png" width="100"/></a><a href="#" target="_blank"><img src="images/br.png" width="100"/></a></div>
+            <h5><a href="#" target="_blank">精选推荐</a></h5>
+            <div class="suggest"><a href="#" target="_blank">柏高</a>/<a href="#" target="_blank">亨利·慕时</a>/<a href="#" target="_blank">百达翡丽</a>/<a href="#" target="_blank">江诗丹顿</a>/<a href="#" target="_blank">宝玑</a>/<a href="#" target="_blank">积家</a>/<a href="#" target="_blank">朗格</a>/<a href="#" target="_blank">格拉苏蒂原创</a>/<a href="#" target="_blank">爱彼</a>/<a href="#" target="_blank">伯爵</a>/<a href="#" target="_blank">雅克德罗</a>/<a href="#" target="_blank">芝柏</a>/<a href="#" target="_blank">雅典</a>/<a href="#" target="_blank">法穆兰</a>/<a href="#" target="_blank">爱马仕</a>/<a href="#" target="_blank">天梭</a></div>
+          </div>
+
+    </div>
+    <!--location--->  
+  </div>
+  <ul class="fl top-nav">
+    <li><a href="#" target="_blank">品牌馆</a> <span class="new">新品</span>
+      <div class="text"><a href="#" target="_blank">顶级品牌</a><a href="#" target="_blank">奢华品牌</a><a href="#" target="_blank">轻奢品牌</a><a href="#" target="_blank">时尚品牌</a><a href="#" target="_blank">潮牌</a></div>
+    </li>
+    <li><a href="#" target="_blank">男表</a>
+      <div class="text"><a href="#" target="_blank">商务</a><a href="#" target="_blank">时尚</a><a href="#" target="_blank">潮牌</a><a href="#" target="_blank">运动</a><a href="#" target="_blank">智能</a></div>
+    </li>
+    <li><a href="#" target="_blank">女表</a>
+      <div class="text"><a href="#" target="_blank">时尚</a><a href="#" target="_blank">商务</a><a href="#" target="_blank">运动</a><a href="#" target="_blank">宝石</a></div>
+    </li>
+    <li><a href="#" target="_blank">表友俱乐部</a>
+      <div class="text"><a href="#" target="_blank">相关资讯</a><a href="#" target="_blank">最新活动</a><a href="#" target="_blank">我要晒单</a><a href="#" target="_blank">发起活动</a></div>
+    </li>
+  </ul>
+</div>
+<!--contents-->
+</div>
+<!--nav-->
+<div class="main">
+  <div class="contents">
+    <div class="bread clear">
+      <h4 class="fl"><a href="index.html" target="_blank">首页</a>>选表中心</h4>
+      <span class="fr">热门搜索：<a href="#" target="_blank">正装表</a><a href="#" target="_blank">热销手表</a><a href="#" target="_blank">名表特卖1.4折起</a><a href="#" target="_blank">法表满999减150</a></span></div>
+    <div class="cl fl">
+      <div class="menu">
+        <h5>所有类别手表</h5>
+        <a href="#" target="_blank">手表</a><a href="#" target="_blank">表带/配件</a><a href="#" target="_blank">珠宝</a><a href="#" target="_blank">摇表器</a></div>
+      <div class="menu">
+        <h5>场合</h5>
+        <a href="#" target="_blank">正装</a><a href="#" target="_blank">商务休闲</a><a href="#" target="_blank">时尚</a><a href="#" target="_blank">运动</a><a href="#" target="_blank">收藏</a></div>
+      <div class="menu menus">
+        <h5>送礼</h5>
+        <p><a href="#" target="_blank">男表></a></p>
+        <a href="#" target="_blank">送父亲</a><a href="#" target="_blank">送老公</a><a href="#" target="_blank">送男友</a><a href="#" target="_blank">送朋友</a><a href="#" target="_blank">送同学</a>
+        <p><a href="#" target="_blank">女表></a></p>
+        <a href="#" target="_blank">送母亲</a><a href="#" target="_blank">送老婆</a><a href="#" target="_blank">送女友</a><a href="#" target="_blank">送闺蜜</a>
+        <p><a href="#" target="_blank">情侣表></a></p>
+        <a href="#" target="_blank">新婚</a><a href="#" target="_blank">恋人</a><a href="#" target="_blank">父母</a><a href="#" target="_blank">商务礼物</a><a href="#" target="_blank">特别纪念</a></div>
+      <div class="ad"> <span>热销推荐</span>
+        <ul class="clear">
+          <li><a href="#" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            <p>已有1323人好评</p>
+            </a></li>
+          <li><a href="#" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            <p>已有1223人好评</p>
+            </a></li>
+          <li><a href="#" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p>
+            <p>已有45345人好评</p>
+            </a></li>
+          <li class="last"><a href="#" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            <p>已有343人好评</p>
+            </a></li>
+          <li><a href="#" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            <p>已有1323人好评</p>
+            </a></li>
+          <li><a href="#" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            <p>已有1223人好评</p>
+            </a></li>
+          <li><a href="#" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p>
+            <p>已有45345人好评</p>
+            </a></li>
+            <li><a href="#" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p>
+            <p>已有45345人好评</p>
+            </a></li>
+            <li><a href="#" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            <p>已有1223人好评</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear">
+    <div class="cr fr">
+      <div class="select">
+      	<div class="tabs clear">
+      	<strong class="fl">品牌：</strong>
+        <div class="fl inner">
+        	<div class="inner1"><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a></div>
+        	<div class="inner2"><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a><a href="#" target="_blank">江诗丹顿</a><a href="#" target="_blank">浪琴</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">百达翡丽</a><a href="#" target="_blank">宝玑</a><a href="#" target="_blank">柏高</a><a href="#" target="_blank">劳力士</a><a href="#" target="_blank">库尔沃</a><a href="#" target="_blank">赫柏林</a><a href="#" target="_blank">MINI</a><a href="#" target="_blank">迪沃斯</a><a href="#" target="_blank">C罗表</a></div>
+        </div>
+        <div class="more fr">更多</div>
+        </div>
+        <div class="tabs">
+      	<strong>人群：</strong><a href="#" target="_blank">男表</a><a href="#" target="_blank">女表</a><a href="#" target="_blank">SWISS</a><a href="#" target="_blank">情侣</a><a href="#" target="_blank">中性</a>
+        </div>
+        <div class="tabs">
+      	<strong>价格：</strong><a href="#" target="_blank">1000以下</a><a href="#" target="_blank">1000-3000</a><a href="#" target="_blank">3000-5000</a><a href="#" target="_blank">5000-10,000</a><a href="#" target="_blank">10,000-50,000</a><a href="#" target="_blank">50,000-100,000</a><a href="#" target="_blank">100,000以上</a>
+        </div>
+        <div class="tabs">
+      	<strong>机芯：</strong><a href="#" target="_blank">机械表</a><a href="#" target="_blank">自动机械</a><a href="#" target="_blank">手动机械</a><a href="#" target="_blank">石英表</a><a href="#" target="_blank">光能</a><a href="#" target="_blank">电波</a><a href="#" target="_blank">人动电能</a><a href="#" target="_blank">智能</a><a href="#" target="_blank">其它</a>
+        </div>
+        <div class="tabs else">
+      	<strong>高级选项：</strong><span class="elsemain"><span id="else"><a href="javascript:void(0)" onmousemove="tab1(0)" id="bk">表壳</a><a href="javascript:void(0)" onmousemove="tab1(1)" id="gn">功能</a><a href="javascript:void(0)" onmousemove="tab1(2)" id="bj">表镜</a><a href="javascript:void(0)" onmousemove="tab1(3)" id="bkou">表扣</a><a href="javascript:void(0)" onmousemove="tab1(4)" id="bd">表底</a><a href="javascript:void(0)" onmousemove="tab1(5)" id="fs">防水</a></span>
+        <div class="elseinner" id="bktext" style="display:none">
+        	<a href="#" target="_blank">钢</a><a href="#" target="_blank">不锈钢</a><a href="#" target="_blank">PVD镀金</a><a href="#" target="_blank">18K金</a><a href="#" target="_blank">白金</a><a href="#" target="_blank">黄金</a><a href="#" target="_blank">玫瑰金</a><a href="#" target="_blank">铂金</a><a href="#" target="_blank">红金</a><a href="#" target="_blank">钛</a><a href="#" target="_blank">陶瓷</a><a href="#" target="_blank">镶钻</a><a href="#" target="_blank">混合</a><a href="#" target="_blank">其它</a>
+        </div>
+        <div class="elseinner" id="gntext" style="display:none">
+        	<a href="#" target="_blank">日期显示</a><a href="#" target="_blank">星期显示</a><a href="#" target="_blank">月份显示</a><a href="#" target="_blank">大三针</a><a href="#" target="_blank">小三针</a><a href="#" target="_blank">规范指针</a><a href="#" target="_blank">透窗</a><a href="#" target="_blank">镂空</a><a href="#" target="_blank">夜光</a><a href="#" target="_blank">指南针</a><a href="#" target="_blank">蓝牙</a><a href="#" target="_blank">闹铃</a>
+        </div>
+        <div class="elseinner" id="bjtext" style="display:none">
+        	<a href="#" target="_blank">蓝宝石</a><a href="#" target="_blank">水晶</a><a href="#" target="_blank">有机玻璃</a><a href="#" target="_blank">矿物玻璃</a>
+        </div>
+        <div class="elseinner" id="bkoutext" style="display:none">
+        	<a href="#" target="_blank">针扣</a><a href="#" target="_blank">折叠扣</a><a href="#" target="_blank">蝴蝶扣</a><a href="#" target="_blank">暗扣</a><a href="#" target="_blank">珠宝扣</a><a href="#" target="_blank">按扣</a><a href="#" target="_blank">勾扣</a><a href="#" target="_blank">其它</a>
+        </div>
+        <div class="elseinner" id="bdtext" style="display:none">
+        	<a href="#" target="_blank">透底</a><a href="#" target="_blank">不透底</a><a href="#" target="_blank">透窗</a>
+        </div>
+        <div class="elseinner" id="fstext" style="display:none">
+        	<a href="#" target="_blank">无</a><a href="#" target="_blank">日常防水</a><a href="#" target="_blank">30米</a><a href="#" target="_blank">40米</a><a href="#" target="_blank">50米</a><a href="#" target="_blank">60米</a><a href="#" target="_blank">100米</a><a href="#" target="_blank">120米</a><a href="#" target="_blank">150米</a><a href="#" target="_blank">200米</a><a href="#" target="_blank">300米</a><a href="#" target="_blank">500米</a><a href="#" target="_blank">600米</a>
+        </div>
+        </span>
+        
+        </div>     
+      </div>
+      <div class="list">
+      	<div class="topline clear"><div class="fl"><span class="hover">综合排序</span><span>销量</span><span>价格</span><span>新品</span><span>折扣</span></div><div class="fr"><span><</span><span>></span></div></div>
+        <ul class="clear">
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span title="加入购物车" class="buy fr Q-buy-btn" id="buy-s-1">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-2">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-3">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-4">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-5">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-6">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-7">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-8">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-9">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-10">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-11">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-12">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-13">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-14">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-15">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-15">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-17">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-18">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-19">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-20">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-21">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-22">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-23">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-24">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-25">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-26">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-27">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-28">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" />
+            <p>瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246615 男士商务、石英表</p>
+            <p>￥1999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1323人好评</span><span class="buy fr Q-buy-btn" id="buy-s-29">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" />
+            <p>百搭有范！瑞士迪沃斯（DAVOSA）-Classic Quartz 经典系列 16246655 </p>
+            <p>￥2999</p>
+            </a>
+            <p class="clear"><span class="fl">已有1223人好评</span><span class="buy fr Q-buy-btn" id="buy-s-30">加入购物车</span></p>
+          </li>
+          <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" />
+            <p>11.11爆款商品一口价，不再参与满减或用券！美度MIDO-贝伦赛丽BARONCELLI表</p>
+            <p>￥6589</p class="clear">
+            </a>
+            <p><span class="fl">已有45342人好评</span><span class="buy fr Q-buy-btn" id="buy-s-31">加入购物车</span></p>
+          </li>
+          <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" />
+            <p>【专享5年联保】法国优雅腕表品牌：赫柏林-Perles 珍珠系列 巴黎恋人</p>
+            <p>￥9999</p>
+            </a>
+            <p class="clear"><span class="fl">已有343人好评</span><span class="buy fr Q-buy-btn" id="buy-s-32">加入购物车</span></p>
+          </li>
+        </ul>
+      </div>
+      <!--list-->
+      <div class="page">
+      	<span><上一页</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>…<span>下一页></span> 共50页  到第<span>1</span>页<span>确定</span>
+      </div>     
+    </div>
+   
+    </div>
+     <!--cr-->
+    <div class="other">
+    	<span>猜你喜欢</span>
+    	<ul class="clear">
+        	<li><a href="product.html" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" /><p>欧米伽镂空机械表</p><p>￥1999</p><p>1323人好评</p></a></li>
+            <li><a href="product.html" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" /><p>瑞士原装进口天梭表</p><p>￥2999</p><p>1223人好评</p></a></li>
+            <li><a href="product.html" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" /><p>法式新优雅</p><p>￥6589</p><p>45345人好评</p></a></li>
+            <li><a href="product.html" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" /><p>镂空机械表</p><p>￥9999</p><p>343人好评</p></a></li>
+            <li class="last"><a href="product.html" target="_blank"><img src="images/main-watch_31.jpg" width="118" height="193" /><p>欧米伽星座系列</p><p>￥9589</p><p>343人好评</p></a></li>       
+        </ul>
+    </div>
+  </div>
+  <!--content--> 
+</div>
+<!--main-->
+<div class="footer-line">
+    	<div class="contents">
+        	<ul class="clear">
+            	<li class="clear"><img class="fl" src="images/icon-footer_03.png" width="40" height="40" alt=""/><p class="fl">正品保障</p></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_05.png" width="40" height="40" alt=""/><p class="fl">假一罚三</pn></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_09.png" width="40" height="40" alt=""/><p class="fl">顶级服务</p></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_11.png" width="40" height="40" alt=""/><p class="fl">全球联保</p></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_16.png" width="40" height="40" alt=""/><p class="fl">优质物流</p></li>
+                
+            </ul>
+        
+        </div>
+    </div>
+    <div class="footer">
+    	<div class="contents clear">
+        	<div class="footl fl">
+                    <p>客服电话</p><span>400-883-2688</span>
+                    <a href="#" target="_blank">在线咨询</a>
+                </div>
+                <div class="footr fr clear">
+                    <div class="l1 fl">
+                        <h6>新手</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">注册新会员</a></li>
+                            <li><a href="#" target="_blank">如何订购</a></li>
+                            <li><a href="#" target="_blank">正品保障</a></li>
+                            <li><a href="#" target="_blank">常见手表问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="l2 fl">
+                        <h6>支付</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">支付方式</a></li>
+                            <li><a href="#" target="_blank">分期付款</a></li>
+                            <li><a href="#" target="_blank">发票说明</a></li>
+                            <li><a href="#" target="_blank">支付问题</a></li>                    	
+                        </ul>
+                    </div>
+                    <div class="l13 fl">
+                        <h6>物流</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">包裹签收</a></li>
+                            <li><a href="#" target="_blank">配送方式</a></li>
+                            <li><a href="#" target="_blank">配送说明</a></li>
+                            <li><a href="#" target="_blank">自提流程</a></li>               	
+                        </ul>
+                    </div>
+                    <div class="l4 fl">
+                        <h6>保障</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">服务承诺</a></li>
+                            <li><a href="#" target="_blank">价格保护</a></li>
+                            <li><a href="#" target="_blank">七天退换说明</a></li>
+                            <li><a href="#" target="_blank"> 保修说明</a></li>             	
+                        </ul>
+                    </div>                    
+            	</div>
+        </div>
+        <!--contents-->
+    </div>
+    <!--footer-->
+    <div class="footer-bottom">
+    	<div class="contents">
+        	<p>铭表网名表商城 版权所有 2008-2016 ICP备案证书号:鄂ICP备09108738号 网监备案:4401060103141<br/>武汉市铭表网科技股份有限公司 地址:武汉市江汉区临江大道507号<br/>Copyright 2008-2016 WWW.MBCLUB.CN.LTD ALL RIGHT RESERVED.
+</p>
+		<div class="clear"><h6>友情链接:</h6><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a><a href="#" target="_blank">爱马仕</a><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a><a href="#" target="_blank">爱马仕</a><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a></div>
+    </div>
+    </div>
+    <div class="J-shoping J-shoping-small">
+	<div class="J-shoping-item">
+		
+		<div class="baseBg J-L-ico J-shoping-pos"></div>
+		<div class="J-shoping-main">
+			<div class="J-shoping-title">
+				<a href="javascript:void(0);" title="" class="J-go"><em class="baseBg"></em>购物车</a>
+				<span class="baseBg J-shoping-num">0</span>
+			</div>
+			<div class="baseBg J-shoping-mx"></div>
+			<div class="J-shoping-px"></div>
+			<div class="J-shoping-body">
+				<div class="J-shoping-buy">
+					<span>最多显示最新<strong>5</strong>条</span>
+					<a class="baseBg" href="cart.html" title="去购物车结算"></a>
+				</div>
+			</div>
+		</div>
+		<div class="baseBg J-R-ico J-shoping-pos"></div>
+	</div>
+</div>
+<a href="#" title="在线客服" class="baseBg Q-online"></a>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="js/tab.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jQuery-shopping.js"></script>
+<script type="text/javascript" >
+$(function(){
+   $('.Q-buy-btn').shoping(); //调用shoping函数
+});
+</script>
+<script>
+
+$(".elsemain").mouseleave(
+  function(){
+	  $(".elseinner").hide()
+	  $("#else a").removeClass("ehover")
+	  }
+);
+
+$(".loc").mouseleave(
+  function(){
+	  $(".navinner").hide()
+	  $(".left-nav li").removeClass("hoverbg")
+	  }
+);
+$(".nav li").hover(
+  function(){
+	  $(this).find(".text").stop().slideDown(100);
+	  },
+  function(){
+	  $(this).find(".text").stop().slideUp(100);
+	  }
+);	
+   $(".cart").hover(
+  function(){
+	  $(this).find(".cartinner").stop().slideDown(100);
+	  $(this).find("a").addClass("carthover");
+	  },
+  function(){
+	  $(this).find(".cartinner").stop().slideUp(100);
+	  $(this).find("a").removeClass("carthover");
+	  }
+);
+  $(".allnav").hover(
+  function(){
+	  $(".loc").stop().slideDown(100);
+	  },
+  function(){
+	  $(".loc").stop().slideUp(100);
+	  }
+);
+	
+$(
+function() {
+    $(".more").click(function(event) {
+		$(".inner1").toggle();
+		$(".inner2").toggle();
+    });
+});
+</script>
+</body>
+</html>

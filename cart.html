@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的购物车</title>
+<link href="css/cart.css" rel="stylesheet" type="text/css">
+<link href="css/head-footer.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="top-line" id="top-line">
+  <div class="contents">
+    <div class="fl"> <a href="login.html" target="_blank" class="login">登录</a> | <a href="register.html" target="_blank">注册</a> </div>
+    <div class="fr"> <a href="#" target="_blank" class="fl">我的铭表汇</a>
+      <div class="cart fl"><a href="cart.html" target="_blank">我的购物车(0)</a>
+        <div class="cartinner">购物车空空~赶快去选购吧~</div>
+      </div>
+      <span class="fl">服务专线:400-888-888</span> </div>
+  </div>
+</div>
+<!--top-line-->
+<div class="head">
+  <div class="contents clear">
+    <h1 class="fl"><a href="index.html" target="_blank">铭表网</a></h1>
+    <div class="search fr">
+      <form class="clear">
+        <div class="ser fl">
+          <input type="text" name="" value="搜索 品牌/系列/型号" onfocus="if(this.value=='搜索 品牌/系列/型号'){this.value='';}" onblur="if(this.value==''){this.value='搜索 品牌/系列/型号';}"/>
+        </div>
+        <div class="button fl">
+          <input type="submit" name="" value=""/>
+        </div>
+      </form>
+      <div><a href="#" target="">限时特卖</a><a href="#" target="">11.11优惠返场</a><a href="#" target="">赫柏林满999减150</a></div>
+    </div>
+  </div>
+</div>
+<div class="main">
+  
+  <div id="content">
+  <div class="contents">
+    <div class="bread">
+      <h4><a href="index.html" target="_blank">首页</a>>我的购物车</h4>
+    </div>
+  </div>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" id="shopping">
+ <form action="" method="post" name="myform">
+  <tr class="top">
+    <td class="title_1"><input id="allCheckBox" type="checkbox" value="" onclick="selectAll()" />全选</td>
+    <td class="title_2" colspan="2"></td>
+    <td class="title_3">获积分</td>
+    <td class="title_4">单价（元）</td>
+    <td class="title_5">数量</td>
+    <td class="title_6">小计（元）</td>
+    <td class="title_7">操作</td>
+  </tr>
+  <tr>
+    <td colspan="8" class="line"></td>
+  </tr>
+  <tr>
+    
+  </tr>
+   <tr id="product1">
+    <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product1" onclick="selectSingle()" /></td>
+    <td class="cart_td_2"><img src="images/s1.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">浪琴longines-名匠系列 L2.518.4.78.6 机械男表</a><br/>颜色：土豪金 型号：TVGF254893</td>
+    <td class="cart_td_4">5</td>
+    <td class="cart_td_5">5896.00</td>
+    <td class="cart_td_6"><img src="images/taobao_minus.jpg" alt="minus" onclick="changeNum('num_1','minus')" class="hand"/> <input id="num_1" type="text"  value="1" class="num_input" readonly/> <img src="images/taobao_adding.jpg" alt="add" onclick="changeNum('num_1','add')"  class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a href="javascript:deleteRow('product1');">删除</a></td>
+  </tr>
+  
+  <tr>
+
+  </tr>
+   <tr id="product2">
+    <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product2" onclick="selectSingle()" /></td>
+    <td class="cart_td_2"><img src="images/s2.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">浪琴longines-名匠系列 L2.518.4.78.6 机械男表</a><br />
+        颜色：土豪金 型号：TVGF254893</td>
+    <td class="cart_td_4">12</td>
+    <td class="cart_td_5">3698.00</td>
+    <td class="cart_td_6"><img src="images/taobao_minus.jpg" alt="minus" onclick="changeNum('num_2','minus')" class="hand"/> <input id="num_2" type="text"  value="1" class="num_input" readonly/> <img src="images/taobao_adding.jpg" alt="add" onclick="changeNum('num_2','add')"  class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a href="javascript:deleteRow('product2');">删除</a></td>
+  </tr>
+  
+   <tr>
+
+  </tr>
+   <tr id="product3">
+    <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product3"  onclick="selectSingle()"/></td>
+    <td class="cart_td_2"><img src="images/s3.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">浪琴longines-名匠系列 L2.518.4.78.6 机械男表</a><br />
+        颜色：土豪金 型号：TVGF254893</td>
+    <td class="cart_td_4">3</td>
+    <td class="cart_td_5">1253.00</td>
+    <td class="cart_td_6"><img src="images/taobao_minus.jpg" alt="minus" onclick="changeNum('num_3','minus')" class="hand"/> <input id="num_3" type="text"  value="1" class="num_input" readonly/> <img src="images/taobao_adding.jpg" alt="add" onclick="changeNum('num_3','add')"  class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a href="javascript:deleteRow('product3');">删除</a></td>
+  </tr>
+  
+   <tr>
+ 
+  </tr>
+   <tr id="product4">
+    <td class="cart_td_1"><input name="cartCheckBox" type="checkbox" value="product4" onclick="selectSingle()" /></td>
+    <td class="cart_td_2"><img src="images/s4.jpg" alt="shopping"/></td>
+    <td class="cart_td_3"><a href="#">浪琴longines-名匠系列 L2.518.4.78.6 机械男表</a><br />
+        颜色：土豪金 型号：TVGF254893</td>
+    <td class="cart_td_4">12</td>
+    <td class="cart_td_5">1399.00</td>
+    <td class="cart_td_6"><img src="images/taobao_minus.jpg" alt="minus" onclick="changeNum('num_4','minus')" class="hand"/> <input id="num_4" type="text"  value="2" class="num_input" readonly/> <img src="images/taobao_adding.jpg" alt="add" onclick="changeNum('num_4','add')"  class="hand"/></td>
+    <td class="cart_td_7"></td>
+    <td class="cart_td_8"><a href="javascript:deleteRow('product4');">删除</a></td>
+  </tr>
+  
+   <tr>
+   <td  colspan="3"><a href="javascript:deleteSelectRow()" class="delete">删除所选</a></td>
+    <td colspan="5" class="shopend">商品总价（不含运费）：<label id="total" class="yellow"></label> 元<br />
+    可获积分 <label class="yellow" id="integral"></label> 点<br />
+    <input class="pay" name=" " type="submit" value="去结算"/></td>
+  </tr>
+  </form>
+</table>
+                       <div class="other">
+    	<span>猜你喜欢</span>
+    	<ul class="clear">
+        	<li><a href="#" target="_blank"><img src="images/main-watch_27.gif" width="118" height="193" /><p>欧米伽镂空机械表</p><p>￥1999</p><p>1323人好评</p></a></li>
+            <li><a href="#" target="_blank"><img src="images/main-watch_30.gif" width="118" height="193" /><p>瑞士原装进口天梭表</p><p>￥2999</p><p>1223人好评</p></a></li>
+            <li><a href="#" target="_blank"><img src="images/main-watch_33.gif" width="118" height="193" /><p>法式新优雅</p><p>￥6589</p><p>45345人好评</p></a></li>
+            <li><a href="#" target="_blank"><img src="images/main-watch_25.gif" width="118" height="193" /><p>镂空机械表</p><p>￥9999</p><p>343人好评</p></a></li>
+            <li class="last"><a href="#" target="_blank"><img src="images/main-watch_31.jpg" width="118" height="193" /><p>欧米伽星座系列</p><p>￥9589</p><p>343人好评</p></a></li>       
+        </ul>
+    </div> 
+</div>
+  <!--contents-->
+</div>
+<!--main-->
+<div class="footer-line">
+    	<div class="contents">
+        	<ul class="clear">
+            	<li class="clear"><img class="fl" src="images/icon-footer_03.png" width="40" height="40" alt=""/><p class="fl">正品保障</p></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_05.png" width="40" height="40" alt=""/><p class="fl">假一罚三</pn></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_09.png" width="40" height="40" alt=""/><p class="fl">顶级服务</p></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_11.png" width="40" height="40" alt=""/><p class="fl">全球联保</p></li>
+                <li class="clear"><img class="fl" src="images/icon-footer_16.png" width="40" height="40" alt=""/><p class="fl">优质物流</p></li>
+                
+            </ul>
+        
+        </div>
+    </div>
+    <div class="footer">
+    	<div class="contents clear">
+        	<div class="footl fl">
+                    <p>客服电话</p><span>400-883-2688</span>
+                    <a href="#" target="_blank">在线咨询</a>
+                </div>
+                <div class="footr fr clear">
+                    <div class="l1 fl">
+                        <h6>新手</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">注册新会员</a></li>
+                            <li><a href="#" target="_blank">如何订购</a></li>
+                            <li><a href="#" target="_blank">正品保障</a></li>
+                            <li><a href="#" target="_blank">常见手表问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="l2 fl">
+                        <h6>支付</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">支付方式</a></li>
+                            <li><a href="#" target="_blank">分期付款</a></li>
+                            <li><a href="#" target="_blank">发票说明</a></li>
+                            <li><a href="#" target="_blank">支付问题</a></li>                    	
+                        </ul>
+                    </div>
+                    <div class="l13 fl">
+                        <h6>物流</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">包裹签收</a></li>
+                            <li><a href="#" target="_blank">配送方式</a></li>
+                            <li><a href="#" target="_blank">配送说明</a></li>
+                            <li><a href="#" target="_blank">自提流程</a></li>               	
+                        </ul>
+                    </div>
+                    <div class="l4 fl">
+                        <h6>保障</h6>
+                        <ul>
+                            <li><a href="#" target="_blank">服务承诺</a></li>
+                            <li><a href="#" target="_blank">价格保护</a></li>
+                            <li><a href="#" target="_blank">七天退换说明</a></li>
+                            <li><a href="#" target="_blank"> 保修说明</a></li>             	
+                        </ul>
+                    </div>
+                   
+            	</div>
+                
+        </div>
+        <!--contents-->
+    </div>
+    <!--footer-->
+    <div class="footer-bottom">
+    	<div class="contents">
+        	<p>铭表网名表商城 版权所有 2008-2016 ICP备案证书号:鄂ICP备09108738号 网监备案:4401060103141<br/>武汉市铭表网科技股份有限公司 地址:武汉市江汉区临江大道507号<br/>Copyright 2008-2016 WWW.MBCLUB.CN.LTD ALL RIGHT RESERVED.
+</p>
+		<div class="clear"><h6>友情链接:</h6><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a><a href="#" target="_blank">爱马仕</a><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a><a href="#" target="_blank">爱马仕</a><a href="#" target="_blank">天梭</a><a href="#" target="_blank">卡地亚</a><a href="#" target="_blank">万表网</a><a href="#" target="_blank">京东</a><a href="#" target="_blank">淘宝</a><a href="#" target="_blank">古驰</a></div>
+    </div>
+    </div>
+
+<script src="js/tab.js" type="text/javascript"></script>
+<script src="js/myCart.js" type="text/javascript"></script>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script>
+	
+	 $(".loc").mouseleave(
+		function(){
+			$(".navinner").hide()
+			$(".left-nav li").removeClass("hoverbg")
+			}
+	);
+	 $(".nav li").hover(
+		function(){
+			$(this).find(".text").stop().slideDown(100);
+			},
+		function(){
+			$(this).find(".text").stop().slideUp(100);
+			}
+	);	
+		 $(".cart").hover(
+		function(){
+			$(this).find(".cartinner").stop().slideDown(100);
+			$(this).find("a").addClass("carthover");
+			},
+		function(){
+			$(this).find(".cartinner").stop().slideUp(100);
+			$(this).find("a").removeClass("carthover");
+			}
+	);
+		$(".allnav").hover(
+		function(){
+			$(".loc").stop().slideDown(100);
+			},
+		function(){
+			$(".loc").stop().slideUp(100);
+			}
+	);
+</script>
+</body>
+</html>

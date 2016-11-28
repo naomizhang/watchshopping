@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.loc{display:none;}
+body{background:#fff;font-size:12px;}
+body a:hover{color:#c6975e;}
+.bread{padding:0 0 25px 0;color:#999;font-size:12px;}
+.bread a,.bread span{color:#999;font-size:12px;padding:0 0 0 10px;}
+#content{
+	width:1000px;
+	margin:10px auto 5px auto;
+	clear:both;
+	}
+	.title_1{
+		text-align:center;
+		width:50px;
+		}
+	.title_2{
+		text-align:center;
+		}
+	.title_3{
+		text-align:center;
+		width:80px;
+		}
+	.title_4{
+		text-align:center;
+		width:80px;
+		}
+	.title_5{
+		text-align:center;
+		width:100px;
+		}
+	.title_6{
+		text-align:center;
+		width:80px;
+		}
+	.title_7{
+		text-align:center;
+		width:60px;
+		}
+	.line{
+		background-color:#fff;
+		height:3px;
+		}
+	.shopInfo{
+		padding-left:10px;
+		height:35px;
+		vertical-align:bottom;
+		}
+	.num_input{
+		border:solid 1px #666;
+		width:25px;
+		height:15px;
+		text-align:center;
+		}
+	.cart_td_1,.cart_td_2,.cart_td_3,.cart_td_4,.cart_td_5,.cart_td_6,.cart_td_7,.cart_td_8{
+		background-color:#fff;
+		/*border-bottom:solid 1px #ccc;*/
+		border-top:solid 1px #F2F2F2;
+		text-align:center;
+		padding:5px;
+		}
+	.cart_td_1,.cart_td_3,.cart_td_4,.cart_td_5,.cart_td_6,.cart_td_7{
+		border-right:solid 1px #fff;
+		}
+	.cart_td_3{
+		text-align:left;
+		}
+	.cart_td_4{
+		font-weight:bold;
+		}
+	.cart_td_7{
+		font-weight:bold;
+		color:#fe6400;
+		font-size:14px;
+		}
+	.hand{
+		cursor:pointer;
+		}
+.shopend{
+	text-align:right;
+	padding-right:10px;
+	padding-bottom:10px;
+	}
+.yellow{
+	font-weight:bold;
+	color:#fe6400;
+	font-size:18px;
+	line-height:40px;
+	}
+.top{background:#F6F6F6;}
+
+.delete{display:inline-block;width:80px;height:30px;background:#999;border-radius:3px;line-height:30px;text-align:center;font-family:"Microsoft Yahei";color:#fff;}
+.delete:hover{color:#fff;}
+input.pay{width:100px;height:32px;background:#c6975e;border:none;border-radius:3px;line-height:32px;text-align:center;color:#fff;font-size:16px;font-family:"Microsoft Yahei";}
+
+.other{background:#fff;margin:30px 0;outline:1px solid #F0F0F0;}
+.other span{font-size:14px;padding:10px 10px;display:block;}
+.other li{float:left;text-align:center;width:200px;padding:0 0 5px 0;}
+.other li.last{margin-right:0;}
+.other li p{line-height:24px;color:#666;}
+.other li img+p+p{color:#F90;}
+.other li img+p+p+p{color:#999;}
+.other li img{height:45%;width:45%;}
