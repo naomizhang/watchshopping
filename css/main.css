@@ -1,10 +1,10 @@
 /* CSS Document */
 
-.banner{height:400px;position:relative;*z-index:-1;}
+.banner{height:400px;position:relative;*z-index:-1;;width:expression(document.body.clientWidth <= 1200? "1200px": "auto");min-width:1200px;width:100%;margin:0 auto;}
 #kinMaxShow{visibility:hidden;width:100%;height:400px;overflow:hidden;position:absolute;top:0;}
 
 
-.xm{height:210px;background:url(../images/xm-line_11.gif) repeat-x center center;margin-bottom:30px;}
+.xm{height:210px;background:url(../images/xm-line_11.gif) repeat-x center center;margin-bottom:30px;;width:expression(document.body.clientWidth <= 1200? "1200px": "auto");min-width:1200px;width:100%;}
 .xm li{width:297px;height:150px;border:solid 20px #fff;border-bottom:none;float:left;position:relative;}
 .xm ul{padding:40px 0 0 94px;width:1011px;}
 .xm li span{display:block;width:297px;height:150px;background:#000\9;filter:alpha(opacity=40)\9;background:rgba(0,0,0,0.4);position:absolute;top:0;left:0;display:none;}
@@ -25,7 +25,7 @@
 .wat li img{transition:all 0.2s linear;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;}
 .wat li:hover img{-webkit-transform:translate(4px,0);-moz-transform:translate(4px,0);transform:translate(4px,0)}
 
-.ppg{height:500px;background:#272727;}
+.ppg{height:500px;background:#272727;;width:expression(document.body.clientWidth <= 1200? "1200px": "auto");min-width:1200px;width:100%;}
 .ppg .contents{height:500px;}
 .ppg .tit{height:140px;padding:0 0 0 30px;}
 .ppg .tit h3{color:#FFF;line-height:140px;}
