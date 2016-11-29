@@ -69,8 +69,8 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 
 
 
-.footer-line{height:80px;background:url(../images/footerline_48.gif) repeat-x center center;}
-.footer{background:#272727;padding:40px 0;font-family:"Microsoft Yahei";border-bottom:solid 1px #5f5f5f;}
+.footer-line{height:80px;background:url(../images/footerline_48.gif) repeat-x center center;width:expression(document.body.clientWidth <= 1200? "1200px": "auto");min-width:1200px;width:100%;}
+.footer{background:#272727;padding:40px 0;font-family:"Microsoft Yahei";border-bottom:solid 1px #5f5f5f;;width:expression(document.body.clientWidth <= 1200? "1200px": "auto");min-width:1200px;width:100%;}
 
 .footl{width:400px;text-align:center;}
 .footl p{font-size:20px;font-family:"Microsoft Yahei";color:#d3d4d4;line-height:48px;}
