@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 
 .head{height:100px;background:#fff;}
 .head h1 a{display:inline-block;height:100px;width:200px;background:url(../images/head_03.png) no-repeat left center;text-indent:-9999px;}
-.bg{background:url(../images/banner_10.jpg) no-repeat center center;height:430px;margin:0 0 100px 0;}
+.bg{background:url(../images/banner_10.jpg) no-repeat center center;height:430px;margin:0 0 100px 0;width:expression(document.body.clientWidth <= 1000? "1000px": "auto");min-width:1000px;width:100%;}
 .bg .login{float:right;height:240px;width:300px;background:#fff;margin:40px 0 0 0;padding:40px 20px;}
 .login .top1 .fl{line-height:24px;font-size:18px;font-weight:normal;font-family:"Microsoft Yahei";}
 .login .top1 .fr{font-size:12px;line-height:24px;}
@@ -29,8 +29,8 @@ form p{font-size:12px;line-height:18px;height:18px;}
 .login a:hover{color:#c6975e;}
 
 
-.footer-line{height:80px;background:url(../images/footerline_48.gif) repeat-x center center;}
-.footer{background:#272727;padding:40px 0;font-family:"Microsoft Yahei";border-bottom:solid 1px #5f5f5f;}
+.footer-line{height:80px;background:url(../images/footerline_48.gif) repeat-x center center;width:expression(document.body.clientWidth <= 1000? "1000px": "auto");min-width:1000px;width:100%;}
+.footer{background:#272727;padding:40px 0;font-family:"Microsoft Yahei";border-bottom:solid 1px #5f5f5f;width:expression(document.body.clientWidth <= 1000? "1000px": "auto");min-width:1000px;width:100%;}
 
 .footl{width:400px;text-align:center;}
 .footl p{font-size:20px;font-family:"Microsoft Yahei";color:#d3d4d4;line-height:48px;}
@@ -43,7 +43,7 @@ form p{font-size:12px;line-height:18px;height:18px;}
 .footr a{font-size:12px;color:#666;}
 .footr a:hover{color:#8b5416;}
 
-.footer-bottom{background:#272727;padding:10px 0 0 0;}
+.footer-bottom{background:#272727;padding:10px 0 0 0;width:expression(document.body.clientWidth <= 1000? "1000px": "auto");min-width:1000px;width:100%;}
 .footer-bottom p{text-align:center;line-height:28px;font-size:12px;color:#666;padding:0 0 20px 0;}
 .footer-bottom h6{line-height:28px;font-size:12px;color:#666;display:inline-block;float:left;}
 .footer-bottom a{line-height:28px;font-size:12px;color:#666;padding:0 10px;float:left;}
